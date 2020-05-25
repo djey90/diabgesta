@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    <?php require_once('../assets/css/style.css') ?>
-  </style>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
   <script type="text/javascript" href="../assets/js/main.js"></script>
 
   <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicon/apple-icon-57x57.png">

@@ -1,5 +1,4 @@
 html, body { margin: 0; padding: 0; width: 100%;}
-
 body {font-family: "Helvetica Neue",sans-serif;font-weight: lighter;}
 
 
@@ -9,7 +8,7 @@ body {font-family: "Helvetica Neue",sans-serif;font-weight: lighter;}
 nav {position: fixed; width: 100%; line-height: 60px;}
 nav ul {line-height: 60px;list-style: none;background: rgba(0, 0, 0, 0);overflow: hidden;color: #fff;padding: 0;text-align: right;margin: 0;padding-right: 40px;transition: 1s;}
 nav.black ul {background: #000;}
-nav ul li {display: inline-block;padding: 16px 40px;;}
+nav ul li {display: inline-block;padding: 16px 40px;}
 nav ul li a {text-decoration: none;color: #fff;font-size: 16px;}
 .menu-icon {line-height: 60px;width: 100%;background: #000;text-align: right;box-sizing: border-box;padding: 15px 24px;cursor: pointer;color: #fff;display: none;}
 
@@ -22,25 +21,26 @@ nav ul li a {text-decoration: none;color: #fff;font-size: 16px;}
     .menu-icon { display: block;}
 }
 
+.nav-item{overflow: hidden;color: #fff;transition: 1s;}
 
 /* ---------------------------------- accueil ------------------------------------------------ */
-.imgTopacc{width: 100%;height: 70vh;background: url('../assets/img/insuline.jpg') no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
+.imgTopacc{width: 100%;height: 70vh;background: url("../img/insuline.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
 .titleHome h1{text-align: center; color: #009fda;text-transform: uppercase;letter-spacing: 10px;margin-top: 30px;}
 .intro{margin-top: 20px;}
 .intro ul, .risque ul{ list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;text-align: center;}
-.imgEnceinte{background: url('../assets/img/enceinte.jpg') no-repeat;background-size: cover;height: 70vh;}
+.imgEnceinte{background: url("../img/enceinte.jpg") no-repeat;background-size: cover;height: 70vh;}
 .intro h5,.risque h5, .traitement h5, .postAcc h5{margin-top: 30px;margin-bottom: 20px;}
 .traitement span{color: #009fda;}
 
 
 /* --------------------------------- conseils -------------------------------------------- */
-.imgTopcons{width: 100%;height: 70vh;background: url('../assets/img/alimentationDiabete.jpg') no-repeat 50% 100%; background-size: cover;background-attachment: fixed;}
+.imgTopcons{width: 100%;height: 70vh;background: url("../img/alimentationDiabete.jpg") no-repeat 50% 100%; background-size: cover;background-attachment: fixed;}
 .titleCons h1{text-align: center;color: #009fda;text-transform: uppercase;letter-spacing: 10px;margin-top: 30px;}
 .introCons h5, .conseil h5, .diet h5{margin-top: 30px;margin-bottom: 20px;}
-.imgGlucide{background: url('../assets/img/glucide.jpg');background-size: cover;background-position: center;height: 45vh;}
-.imgLipide{background: url('../assets/img/lipide.jpg');background-position: center;background-size: cover;height: 45vh;}
-.imgProteine{background: url('../assets/img/proteine.jpg');background-size: cover;background-position: center;height: 45vh;}
-.imgFibre{background: url('../assets/img/fibre.jpg');background-position: center;background-size: cover;height: 45vh;}
+.imgGlucide{background: url("../img/glucide.jpg");background-size: cover;background-position: center;height: 45vh;}
+.imgLipide{background: url("../img/lipide.jpg");background-position: center;background-size: cover;height: 45vh;}
+.imgProteine{background: url("../img/proteine.jpg");background-size: cover;background-position: center;height: 45vh;}
+.imgFibre{background: url("../img/fibre.jpg");background-position: center;background-size: cover;height: 45vh;}
 .introCons ul{list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;}
 .conseil ul{list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;}
 .diet{margin-bottom: 30px;}
@@ -48,7 +48,7 @@ nav ul li a {text-decoration: none;color: #fff;font-size: 16px;}
 .conseil span{color: #009fda;}
 
 /* ----------------------------contact -------------------------------------------------- */
-.imgTopcont {width: 100%;height: 70vh;background: url('../assets/img/pregnant.jpg') no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
+.imgTopcont {width: 100%;height: 70vh;background: url("../img/pregnant.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
 .titleCont h1{color: #009fda;text-transform: uppercase;font-weight: bold;text-align: center;letter-spacing: 10px;margin-top: 30px;}
 .contact{background-color: #fff;position: relative;margin-top: 8%;border: 2px solid #009fda;box-shadow: 11px 5px 5px 5px #009fdad1}
 .titleCont{margin-top: 5%;}
@@ -78,13 +78,13 @@ footer li a:hover{color: #ffffff;text-decoration: none}
 
 
 /* ---------------- mentions --------------------- */
-.imgMention{width: 100%;height: 70vh;background: url('../assets/img/grossesseDiabete.jpg') no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
+.imgMention{width: 100%;height: 70vh;background: url("../img/grossesseDiabete.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
 .titleMention h1{color: #009fda;text-transform: uppercase;font-weight: bold;text-align: center;letter-spacing: 10px;margin-top: 30px;}
 .mention h3{color: #009fda;margin-top: 20px;margin-bottom: 30px;}
 
 
 /* ------------------------- confidentialite -----------------*/
-.imgPolitique{width: 100%;height: 70vh;background: url('../assets/img/mamanetbebe.jpg') no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
+.imgPolitique{width: 100%;height: 70vh;background: url("../img/mamanetbebe.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
 .titlePolitique h1{color: #009fda;text-transform: uppercase;font-weight: bold;text-align: center;letter-spacing: 10px;margin-top: 30px;margin-bottom: 40px;}
 .conf h3{color: #009fda;margin-top: 20px;margin-bottom: 30px}
 .conf ul li{list-style: none;}
