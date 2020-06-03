@@ -6,8 +6,16 @@
 <div class="imgTopcont"></div>
 </header>
 
+<?php
+session_start();
+
+include '../inc/_inc.php';
+?>
+
+
+
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <section class="titleCont">
             <div class="row">
                 <div class="col-md-12">
@@ -18,35 +26,58 @@
     </div>
 
 
+
+
+
     <div class="container">
-        <section class="contact">
-            <div class="row">
-                <div class="col-md-12">
+        <div class="starter-template contact">
 
-                    <form action="../controllers/PostContact.php" method="POST" class="formC">
+            <?php if (array_key_exists('success', $_SESSION)) : ?>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <?php implode('<br>', $_SESSION['errors']); ?>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <?php endif; ?>
 
-                        <label for="inputName" class="intitu">Nom <span class="asthCont">*</span></label>
-                        <input type="text" name="nom" id="inputName" placeholder="Votre nom" required>
+                    <?php if (array_key_exists('success', $_SESSION)) : ?>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            Votre message a bien été envoyé
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    <?php endif; ?>
 
+                    <form action="../controllers/post_controller.php" method="POST" class="formC">
 
-                        <label for="inputMail" class="intitu">Adresse mail <span class="asthCont">*</span></label>
-                        <input type="text" name="mail" id="inputMail" placeholder="Votre email" required>
+                        <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?= $form->text('nom', 'Votre nom') ?>
+                            </div>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?= $form->text('mail', 'Votre e-mail') ?>
+                            </div>
+                        </div>
 
-                        <label for="inputObjet" class="intitu">Objet <span class="asthCont">*</span></label>
-                        <input type="text" id="inputObjet" name="objet" placeholder="Votre objet" required>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?= $form->text('objet', 'Votre objet') ?>
+                            </div>
+                        </div>
 
-                        <label for="inputMsg" class="intitu">Message <span class="asthCont">*</span></label>
-                        <textarea name="msg" id="inputMsg" cols="30" rows="10" placeholder="Votre message" required></textarea>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?= $form->textarea('msg', 'Votre message') ?>
+                            </div>
+                        </div>
 
-                        <button type="submit" name="envoi" class="btn">Envoyer</button>
-                        <p class="champs"> <span class="asthCont">*</span> Champs obligatoires</p>
+                        <button type="submit" class="btn">Envoyer</button>
                     </form>
                 </div>
-            </div>
-
-        </section>
-
+        </div>
 
 
         <section class="socialNetwork">
@@ -82,7 +113,13 @@
     </div>
     </section>
 
-
+    <?php
+    // Nettoyage des données form de contact
+    // se met en bas de page
+    unset($_SESSION['inputs']);
+    unset($_SESSION['success']);
+    unset($_SESSION['errors']);
+    ?>
 
 
 

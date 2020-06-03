@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md-12">
                     <p>Les points essentiels du régime spécial diabète gestationnel :</p>
-                    <ul>
+                    <ul class="text-center">
                         <li>Favoriser les aliments à index glycémique bas</li>
                         <li>Consommer des fibres alimentaires</li>
                         <li>Eviter les sucres simples</li>
