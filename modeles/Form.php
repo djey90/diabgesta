@@ -7,13 +7,13 @@ class Form
         $this->datas = $datas;
     }
 
-    /*private function getValue($nom)
+    private function getValue($nom)
     {
         $value = "";
         if (isset($this->datas['nom'])) {
             $value = $this->datas[$nom];
         }
-    }*/
+    }
 
     private function input($type, $nom, $label)
     {
