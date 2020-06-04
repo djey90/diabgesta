@@ -24,7 +24,7 @@ if (!empty($errors)) {
     $_SESSION['errors'] = $errors;
     $_SESSION['inputs'] = $_POST;
     // redirection
-    header('location: ../vues/contact.php');
+    header('location: ../src/vues/contact.php');
 } else {
     $_SESSION['success'] = 1;
     $headers = 'FROM: ' . $_POST['email'];

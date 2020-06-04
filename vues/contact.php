@@ -7,7 +7,7 @@
 </header>
 
 <?php
-session_start();
+
 
 include '../inc/_inc.php';
 ?>
@@ -47,7 +47,7 @@ include '../inc/_inc.php';
                         </div>
                     <?php endif; ?>
 
-                    <form action="../controllers/post_controller.php" method="POST" class="formC">
+                    <form action="../src/controllers/post_controller.php" method="POST" class="formC">
 
                         <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
                         <div class="row">

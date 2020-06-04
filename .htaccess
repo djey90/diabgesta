@@ -1,3 +1,6 @@
+ErrorDocument 404 /diabgesta-v2/404.php
+
+
 <Files .htaccess>
  order allow,deny 
  deny from all 

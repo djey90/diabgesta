@@ -21,7 +21,7 @@
 
 <header class="header-bg">
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="accueil.php">
+      <a class="navbar-brand" href="accueil">
          <img src="../assets/img/favicon/favicon-32x32.png" class="imgLogo" alt="LogoDiabgesta">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,9 +29,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="accueil.php">Diabete Gestationnel</a>
-            <a class="nav-item nav-link" href="conseils.php">Conseils</a>
-            <a class="nav-item nav-link" href="contact.php">Restons en contact !</a>
+            <a class="nav-item nav-link" href="accueil">Diabete Gestationnel</a>
+            <a class="nav-item nav-link" href="conseils">Entre-nous</a>
+            <a class="nav-item nav-link" href="contact">Restons en contact !</a>
 
          </div>
       </div>

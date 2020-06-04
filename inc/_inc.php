@@ -1,7 +1,7 @@
 <?php
 
-session_start();
 
 
 
-require '../vues/contact.php';
+
+require '../src/vues/contact.php';
