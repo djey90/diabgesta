@@ -4,4 +4,4 @@
 
 
 
-require '../src/vues/contact.php';
+require '../vues/contact.php';

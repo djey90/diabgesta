@@ -35,7 +35,7 @@
                     <p>Une seule valeur de glycémie égale ou supérieure aux seuils définis suffit à diagnostiquer un diabète gestationnel (à jeun, 0,92 g/l, 1 heure après l’ingestion 1,80 g/l, 2 heures après l’ingestion,1,53 g/l).</p>
                 </div>
                 <div class="col-md-12">
-                    <div class="imgEnceinte rounded mx-auto d-block"></div>
+                    <div class="imgEnceinte fluid-img"></div>
                 </div>
             </div>
         </section>

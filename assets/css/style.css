@@ -1,41 +1,49 @@
 html, body { margin: 0; padding: 0; width: 100%;}
-body {font-family: "Helvetica Neue",sans-serif;font-weight: lighter;overflow-x: hidden;}
+body {font-family: "bravery"!important;overflow-x: hidden;}
 
 
 /* -----------------  navbar ---------------------------------------- */
 .imgLogo{border-radius: 19px;}
 .nav-item{margin-right: 20px;}
-a:hover{color:#009fda ;}
+a:hover{color:#009fda}
 
 
 /* ---------------------------------- accueil ------------------------------------------------ */
 .imgTopacc{width: 100%;height: 70vh;background: url("../img/insuline.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
-.titleHome h1{text-align: center; color: #009fda;text-transform: uppercase;letter-spacing: 10px;margin-top: 30px;}
+.titleHome h1{font-family: "Moon 2.0 Bold";text-align: center; color: #009fda;letter-spacing: 5px;margin-top: 30px;}
 .intro{margin-top: 20px;}
-.intro ul, .risque ul{ list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;text-align: center;}
-.imgEnceinte{background: url("../img/enceinte.jpg") no-repeat;background-size: cover;height: 70vh;}
+.intro ul, .risque ul{ list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;}
+.imgEnceinte{background: url("../img/enceinte.jpg") no-repeat;background-size: cover;height: 70vh;width: auto;}
 .intro h5,.risque h5, .traitement h5, .postAcc h5{margin-top: 30px;margin-bottom: 20px;}
 .traitement span{color: #009fda;}
+
+/* Responsive */
+@media screen and (max-width){
+
+}
+
 
 
 /* --------------------------------- conseils -------------------------------------------- */
 .imgTopcons{width: 100%;height: 70vh;background: url("../img/alimentationDiabete.jpg") no-repeat 50% 100%; background-size: cover;background-attachment: fixed;}
-.titleCons h1{text-align: center;color: #009fda;text-transform: uppercase;letter-spacing: 10px;margin-top: 30px;}
+.titleCons h1{text-align: center;color: #009fda;letter-spacing: 5px;margin-top: 30px;font-family: "Moon 2.0 Bold"}
 .introCons h5, .conseil h5, .diet h5{margin-top: 30px;margin-bottom: 20px;}
 .imgGlucide{background: url("../img/glucide.jpg");background-size: cover;background-position: center;height: 45vh;}
 .imgLipide{background: url("../img/lipide.jpg");background-position: center;background-size: cover;height: 45vh;}
 .imgProteine{background: url("../img/proteine.jpg");background-size: cover;background-position: center;height: 45vh;}
 .imgFibre{background: url("../img/fibre.jpg");background-position: center;background-size: cover;height: 45vh;}
 .introCons ul{list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;}
-.conseil ul{list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1;text-align: center;}
+.conseil ul{list-style: none;border: 1px solid #009fda;box-shadow: 9px 8px 3px #009fdad1}
 .diet{margin-bottom: 30px;}
 .bases p{margin-top: 20px;}
 .conseil span{color: #009fda;}
 .titleSocial p{text-align: center;}
 
+
+
 /* ----------------------------contact -------------------------------------------------- */
 .imgTopcont {width: 100%;height: 70vh;background: url("../img/pregnant.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
-.titleCont h1{color: #009fda;text-transform: uppercase;font-weight: bold;text-align: center;letter-spacing: 10px;margin-top: 30px;}
+.titleCont h1{color: #009fda;font-family: "Moon 2.0 Bold";text-align: center;letter-spacing: 5px;margin-top: 30px;}
 .contact{background-color: #fff;position: relative;margin-top: 8%;border: 2px solid #009fda;box-shadow: 4px 5px 5px 5px #009fdad1}
 .titleCont{margin-top: 5%;}
 .formC{display: flex;flex-direction: column;width: 70%;margin: 9% auto;} 
@@ -53,8 +61,8 @@ a:hover{color:#009fda ;}
 
 
 /* --------------------------------- footer ---------------------------------- */
-footer{background-color: #111111;font-family: 'Inter', sans-serif;margin-top: 30px}
-footer ul{font-size: 9px;list-style: none;text-align: center;}
+footer{background-color: #111111;margin-top: 30px}
+footer ul{font-size: 9px;list-style: none;text-align: center;margin-right: 34px;}
 footer li a{color: #009fda;}
 footer li a:hover{color: #ffffff;text-decoration: none}
 .footer h3{font-size: 14px;text-align:center;color: #009fda;margin-top: 20px}
@@ -65,24 +73,20 @@ footer li a:hover{color: #ffffff;text-decoration: none}
 
 /* ---------------- mentions --------------------- */
 .imgMention{width: 100%;height: 70vh;background: url("../img/grossesseDiabete.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
-.titleMention h1{color: #009fda;text-transform: uppercase;font-weight: bold;text-align: center;letter-spacing: 10px;margin-top: 30px;}
+.titleMention h1{color: #009fda;font-family: "Moon 2.0 Bold";text-align: center;letter-spacing: 5px;margin-top: 30px;}
 .mention h3{color: #009fda;margin-top: 20px;margin-bottom: 30px;}
 
 
 /* ------------------------- confidentialite -----------------*/
 .imgPolitique{width: 100%;height: 70vh;background: url("../img/mamanetbebe.jpg") no-repeat 50% 100%;background-size: cover;background-attachment: fixed;}
-.titlePolitique h1{color: #009fda;text-transform: uppercase;font-weight: bold;text-align: center;letter-spacing: 10px;margin-top: 30px;margin-bottom: 40px;}
+.titlePolitique h1{color: #009fda;font-family: "Moon 2.0 Bold";text-align: center;letter-spacing: 5px;margin-top: 30px;margin-bottom: 40px;}
 .conf h3{color: #009fda;margin-top: 20px;margin-bottom: 30px}
 .conf ul li{list-style: none;}
 
 
 /* ------------------ 404 --------------------------*/
 .imgError{margin-top: 60px;}
-.imgError h1{color: #009fda;}
-
-
-
-
+.imgError h1{color: #009fda;font-family: "Moon 2.0 Bold"; letter-spacing: 5px;}
 
 
 

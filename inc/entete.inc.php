@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -18,7 +23,11 @@
   </script>
 
   <link rel="stylesheet" href="../assets/css/style.css">
-  <script type="text/javascript" href="../assets/js/main.js"></script>
+  <link rel="stylesheet" href="../assets/font/The-Bravery-Lite-Ver.otf">
+  <link rel="stylesheet" href="../assets/font/OldGrowth-Regular.otf">
+  <link rel="stylesheet" href="../assets/font/etna-free-font.otf">
+  <link rel="stylesheet" href="../assets/font/Moon2.0-Light.otf">
+
   <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/favicon/apple-icon-72x72.png">
@@ -44,7 +53,7 @@
   <link rel="stylesheet" href="assets/font/The-Bravery-Lite-Ver.otf">
   <script src="https://kit.fontawesome.com/9d6ca75a69.js" crossorigin="anonymous"></script>
 
-  <title>Document</title>
+  <title>Diabète Gestationnel</title>
 </head>
 
 
