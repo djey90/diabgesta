@@ -9,7 +9,7 @@
 <?php
 
 
-include '../inc/_inc.php';
+// include('../inc/_inc.php');
 ?>
 
 
