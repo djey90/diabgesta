@@ -28,7 +28,7 @@ class Form
 
         return "<div class=\"form-group\">
     <label for=\"input$nom\" class=\"intitu\">$label <span class=\"asthCont\">*</span></label>
-    $input;
+    $input
 </div>";
     }
 
