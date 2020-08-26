@@ -47,7 +47,7 @@
                         </div>
                     <?php endif; ?>
 
-                    <form action="../src/controllers/post_controller.php" method="POST" class="formC">
+                    <form action="../controllers/post_controller" method="POST" class="formC">
                         <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
                         <div class="row">
                             <div class="col-md-12">
@@ -74,6 +74,7 @@
                         </div>
 
                         <button type="submit" class="btn">Envoyer</button>
+                        <p> <span class="asthCont">*</span> Champs obligatoires</p>
                     </form>
                 </div>
         </div>
