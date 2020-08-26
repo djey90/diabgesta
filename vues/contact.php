@@ -32,7 +32,6 @@
 
     <div class="container">
         <div class="starter-template contact">
-
             <?php if (array_key_exists('success', $_SESSION)) : ?>
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     <?php implode('<br>', $_SESSION['errors']); ?>
@@ -49,7 +48,6 @@
                     <?php endif; ?>
 
                     <form action="../src/controllers/post_controller.php" method="POST" class="formC">
-
                         <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
                         <div class="row">
                             <div class="col-md-12">
@@ -107,9 +105,6 @@
                         <a href=""><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
-
-
-
             </div>
     </div>
     </section>

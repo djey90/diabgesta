@@ -20,7 +20,7 @@ class Form
 
         $value = $this->getValue($nom);
         if ($type == 'textarea') {
-            $input = "<textarea require  name=\"$nom\" class=\"form-control\" id=\"input$nom\"$value</textarea>";
+            $input = "<textarea require  name=\"$nom\" class=\"form-control\" id=\"input$nom\"$value></textarea>";
         } else {
             $input = "<input type=\"$type\" name=\"$nom\" class=\"form-control\" id=\"input$nom\" placeholder=\"Votre mail\" required  value=\"$value\">";
         }
